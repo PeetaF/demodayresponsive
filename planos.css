@@ -1,0 +1,269 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    background-color: #202020;
+    position: fixed;
+}
+
+.imagem.header{
+    height: 5rem;
+}
+
+.alinhar{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    background-color: #202020;
+    color: white;
+    border: 2px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.animaçao:hover{
+    transform: scale(1.2);
+}
+
+.gold.alto{
+    background-color: gold;
+    height: 12rem;
+    border: none;
+}
+
+.gold{
+    background-color: gold;
+    height: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, button{
+    margin: 0;
+}
+
+
+.planos{
+    background-color: #202020;
+    height: 100%;
+    width: 100%;
+}
+
+.espaço{
+    color: white;
+    padding-left: 1rem;
+}
+
+.arrumar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.quadrado{
+    margin-top: 2rem;
+    background-color: white;
+    width: 10rem;
+    height: 32rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    border: 2px solid #202020;
+    border-radius: 10px;
+}
+
+.cimas{
+    background-color: gold;
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.meio{
+    background-color: #202020;
+    text-align: center;
+    margin-top: 7%;
+    padding: 3%;
+    border: 1px solid gold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 80%;
+    margin-left: 10%;
+    color: gold;
+}
+
+.meio:hover{
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.baixo{
+    background-color: #ededed;
+    margin-top: 1rem;
+}
+
+.dec{
+    list-style-type: none;
+}
+
+
+.caixa{
+    background-color: #fff;
+}
+
+.ladoalado{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ul{
+    padding-top: 1rem;
+}
+
+.espaço{
+    padding-top: 1rem;
+}
+
+
+.link{
+    color: #6c757d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario{
+    padding-top: 1rem;
+}
+
+.entrada{
+    border: 2px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.entrada:hover{
+    border: 2px solid #fff;
+}
+
+.title{
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 1rem;
+}
+
+.color{
+    color: #6c757d;
+}
+
+@media (min-width: 600px){
+
+    .quadrado{
+        width: 20rem;
+        height: 37rem;
+        background-color: white;
+        border: 2px solid #202020;
+        border-radius: 10px;
+        margin-left: 2rem;
+    }
+    .cimas{
+        background-color: gold;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .meio{
+        background-color: #202020;
+        margin-top: 7%;
+        padding: 3%;
+        border: 1px solid gold;
+        border-radius: 5px;
+        cursor: pointer;
+        box-sizing: border-box;
+        width: 75%;
+        margin-right: 2rem;
+    }
+    
+    .meio:hover{
+        background-color: white;
+        transform: scale(1.1);
+    }
+    
+    .baixo{
+        background-color: #ededed;
+        margin-top: 10%;
+    }
+    
+    .baixo li{
+        padding: 3%;
+    }
+    
+    
+    .letra{
+        color: black;
+        margin: 0;
+        padding: 2%;
+    }
+
+    .arrumar{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .alinhar{
+        align-items: flex-end;
+    }
+
+    .pages{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .imagem.header{
+        margin-top: 1rem;
+    }
+
+    .btn{
+        padding: 1rem;
+    }
+
+    .cursovantag{
+        margin-top: 20rem;
+        font-size: 2rem;
+    }
+
+    .txt-second{
+        padding-top: 1rem;
+    }
+
+    .ladoalado{
+        justify-content: space-around;
+    }
+
+    .color{
+        text-align: center;
+    }
+}

@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    background-color: #202020;
+    position: fixed;
+}
+
+.imagem.header{
+    height: 5rem;
+}
+
+.alinhar{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    background-color: #202020;
+    color: white;
+    border: 2px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.animaçao:hover{
+    transform: scale(1.2);
+}
+
+.gold.alto{
+    background-color: gold;
+    height: 12rem;
+    border: none;
+}
+
+.gold{
+    background-color: gold;
+    height: 4rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, button{
+    margin: 0;
+}
+
+.imglogin{
+    width: 100%;
+}
+
+.title.home{
+    color: white;
+    text-align: center;
+}
+
+.home{
+    width: 100%;
+    background-color: #202020;
+}
+
+.form{
+    height: 100%;
+    padding: 2rem 0;
+}
+
+.campos{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.campemail, .campsenha{
+    padding: 1.5rem;
+    width: 80%;
+    background-color: #fff;
+    border: 2px solid #dee2e6;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-flow: column;
+}
+
+.checkbox{
+    margin-top: 1rem;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.btnum, .btndois{
+    background-color: white;
+    color: gold;
+    border: 2px solid gold;
+    border-radius: 7px;
+    padding: 1rem;
+    width: 40%;
+    cursor: pointer;
+}
+
+.btnum:hover, .btndois:hover{
+    transform: scale(1.1);
+}
+
+
+li{
+    list-style-type: none;
+}
+
+
+.caixa{
+    background-color: #fff;
+}
+
+.ladoalado{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ul{
+    list-style-type: none;
+    padding-top: 1rem;
+}
+
+.espaço{
+    padding-top: 1rem;
+}
+
+
+.link{
+    color: #6c757d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario{
+    padding-top: 1rem;
+}
+
+.entrada{
+    border: 2px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.entrada:hover{
+    border: 2px solid #fff;
+}
+
+.title{
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 1rem;
+}
+
+.color{
+    color: #6c757d;
+}
+
+@media (min-width:600px){
+    .arrumar{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .alinhar{
+        align-items: flex-end;
+    }
+
+    .pages{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .imagem.header{
+        margin-top: 1rem;
+    }
+
+    .btn{
+        padding: 1rem;
+    }
+
+    .home{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .imglogin{
+        order: 1;
+        width: 50%;
+        height: auto;
+        
+    }
+
+    .form{
+        display: flex;
+        width: 50%;
+        flex-flow: column;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .campos{
+        width: 60%;
+    }
+
+    .botoes{
+        margin-top: 2rem;
+        width: 60%;
+    }
+
+    .ladoalado{
+        justify-content: space-around;
+    }
+
+    .color{
+        text-align: center;
+    }
+}
