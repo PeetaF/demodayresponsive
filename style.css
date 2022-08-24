@@ -1,0 +1,274 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    background-color: #202020;
+    position: fixed;
+}
+
+.imagem.header{
+    height: 5rem;
+}
+
+.alinhar{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.animaçao:hover{
+    transform: scale(1.2);
+}
+
+.gold.cima{
+    background-color: gold;
+    height: 12rem;
+    border: none;
+}
+
+.home{
+    background-color: #202020;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt-primary{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.txt-second{
+    color: gold;
+    margin:0;
+    text-align: center;
+}
+
+.quadrado{
+    background-color: white;
+    height: 12rem;
+    width: 10rem;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #202020;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.txtquadrado{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.cima{
+    background-color: gold;
+    width: 100%;
+    border: 2px solid #202020;
+    border-radius: 5px;
+}
+
+.botao{
+    background-color: #202020;
+    color: white;
+    height: 30px;
+    border: 2px solid gold;
+    border-radius: 5px;
+}
+
+.botao:hover{
+    background-color: #202020;
+    cursor: pointer;
+}
+
+.baixo{
+    display: none;
+}
+
+.vantagens{
+    list-style-type: disc;
+}
+
+.gold{
+    background-color: gold;
+    height: 90px;
+}
+
+.caixa{
+    background-color: #fff;
+}
+
+.ladoalado{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ul{
+    list-style-type: none;
+    padding-top: 1rem;
+}
+
+.espaço{
+    padding-top: 1rem;
+}
+
+
+.link{
+    color: #6c757d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario{
+    padding-top: 1rem;
+}
+
+.entrada{
+    border: 2px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.entrada:hover{
+    border: 2px solid #fff;
+}
+
+.btn{
+    background-color: #202020;
+    color: white;
+    border: 2px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.title{
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 1rem;
+}
+
+.color{
+    color: #6c757d;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, button{
+    margin: 0;
+}
+
+
+@media (min-width: 600px){
+    .home{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .alinhar{
+        align-items: flex-end;
+    }
+
+    .pages{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .imagem.header{
+        margin-top: 1rem;
+    }
+
+    .btn{
+        padding: 1rem;
+    }
+
+    .home{
+        display: flex;
+        align-items: flex-start;
+        flex-flow: nowrap;
+        height: 100vh;
+    }
+
+    .txtquadrado{
+        margin-top: 2rem;
+        display: flex;
+    }
+
+    .article{
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .quadrado{
+        height: 32rem;
+        width: 18rem;
+    }
+
+    .cima{
+        height: 7rem;
+        border: none;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+
+    .botao{
+        width: 10rem;
+        height: 3rem;
+        color: gold;
+    }
+
+    .botao:hover{
+        transform: scale(1.1);
+        background-color: white;
+    }
+
+    .baixo{
+        display: flex;
+        background-color: #ededed;
+    }
+
+    .cursovantag{
+        margin-top: 20rem;
+        font-size: 2rem;
+    }
+
+    .txt-second{
+        padding-top: 1rem;
+    }
+
+    .ladoalado{
+        justify-content: space-around;
+    }
+
+    .color{
+        text-align: center;
+    }
+
+
+
+}
+
