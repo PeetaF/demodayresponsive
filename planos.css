@@ -122,8 +122,8 @@ h1, h2, h3, h4, h5, h6, p, span, a, button{
     margin-top: 1rem;
 }
 
-li{
-    list-style-type: disc;
+.dec{
+    list-style-type: none;
 }
 
 
@@ -140,7 +140,6 @@ li{
 
 
 ul{
-    list-style-type: none;
     padding-top: 1rem;
 }
 

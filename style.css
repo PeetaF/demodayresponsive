@@ -101,8 +101,8 @@ a{
     display: none;
 }
 
-.vantagens{
-    list-style-type: disc;
+.dec{
+    list-style-type: none;
 }
 
 .gold{
@@ -123,7 +123,6 @@ a{
 
 
 ul{
-    list-style-type: none;
     padding-top: 1rem;
 }
 
