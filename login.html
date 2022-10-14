@@ -37,17 +37,16 @@
     <main>
 
         <div class="home">
-
             <img src="./imgs/estudar-online.webp" alt="menino estudando online" class="imglogin">
             <div class="form">
                 <div class="apresentação">
-                    <h1 class="title home">O primeiro passo aqui é mais fácil</h1>
-                    <h3 class="title home">Bem-vindo de volta. Faça login e boas aulas!</h3>
+                    <h1 class="title ho">O primeiro passo aqui é mais fácil</h1>
+                    <h3 class="title ho">Bem-vindo de volta. Faça login e boas aulas!</h3>
                 </div>
                 <form action="" class="campos">
                     <div class="campemail">
                         <label for=""></label>
-                        <input type="e-mail" placeholder="Seu e-mail">
+                        <input type="e-mail" placeholder="Seu e-mail" class="formstyle">
                         <div class="checkbox">
                             <input type="checkbox">
                             <label for="">Não esqueça seu e-mail!</label>
@@ -55,22 +54,61 @@
                     </div>
                     <div class="campsenha">
                         <label for=""></label>
-                        <input type="Password" placeholder="Sua senha">
+                        <input type="Password" placeholder="Sua senha" class="formstyle">
                         <div class="checkbox">
                             <input type="checkbox">
                             <label for="">Não esqueça sua senha!</label>
                         </div>
                     </div>   
+                    <a href="http://" class="linkstyle">Esqueceu sua senha?</a>
                 </form>
                 <div class="botoes">
                     <button class="btnum">Login</button>
+                    <button id="signup" class="btndois">Cadastro</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="hometwo">
+            <img src="./imgs/estudar-online.webp" alt="menino estudando online" class="imglogin">
+            <div class="form">
+                <div class="apresentação">
+                    <h1 class="title ho">Lorem ipsum dolor sit amet</h1>
+                    <h3 class="title ho">Seja bem-vindo ao nosso curso, Cadastre-se agora!</h3>
+                </div>
+                <form action="" class="campostwo">
+                    <div class="campname">
+                        <label for=""></label>
+                        <input type="name" placeholder="Seu nome" class="formstyle">
+                        <div class="checkbox">
+                            <input type="checkbox">
+                            <label for="">Não esqueça seu nome!</label>
+                        </div>
+                    </div>   
+                    <div class="campemail">
+                        <label for=""></label>
+                        <input type="e-mail" placeholder="Seu e-mail" class="formstyle">
+                        <div class="checkbox">
+                            <input type="checkbox">
+                            <label for="">Não esqueça seu e-mail!</label>
+                        </div>        
+                    </div>
+                    <div class="campsenha">
+                        <label for=""></label>
+                        <input type="Password" placeholder="Sua senha" class="formstyle">
+                        <div class="checkbox">
+                            <input type="checkbox">
+                            <label for="">Não esqueça sua senha!</label>
+                        </div>
+                    </div>   
+                    
+                </form>
+                <div class="botoes">
+                    <button id="signin" class="btnum">Login</button>
                     <button class="btndois">Cadastro</button>
                 </div>
             </div>
-            
-
         </div>
-
 
     </main>
 
@@ -126,5 +164,6 @@
 
     </footer>
     
+    <script src="login.js"></script>
 </body>
 </html>
